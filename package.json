@@ -1,0 +1,22 @@
+{
+  "name": "photography",
+  "version": "1.0.0",
+  "description": "Personal gallery site for photograpy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandennis/Photograpy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandennis/Photograpy/issues"
+  },
+  "homepage": "https://github.com/briandennis/Photograpy#readme",
+  "dependencies": {
+    "mustache": "^2.2.1"
+  }
+}
