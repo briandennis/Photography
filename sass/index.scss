@@ -72,23 +72,34 @@ nav{
 
   }
   .gallery:hover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    background-color: rgba(91, 91, 91, 0.51);
+    .overlay{
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: rgba(0, 0, 0, .7);
+      transition: all 0.3s linear;
+    }
 
     p{
       font-size: 1.5em;
       font-family: 'Open Sans', sans-serif;
-      color: white;
-      font-weight: 200;
-      padding: .2em .5em;
+      color: #e6e6e6;
+      font-weight: 500;
 
-      border: solid 2px white;
+      padding: 5px 15px;
+
+      border: solid 2px #e6e6e6;
 
     }
-
-    transition:.2s;
+    p:hover{
+      border: none;
+      background: white;
+      color: #444;
+    }
   }
 }
