@@ -4,7 +4,7 @@
   "description": "Personal gallery site for photograpy",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch sass/index.scss:css/index.css"
+    "sass": "sass --watch sass:css"
   },
   "repository": {
     "type": "git",
