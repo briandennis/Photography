@@ -11,14 +11,14 @@ nav{
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   h3{
-    padding-right: 20px;
+    padding: 0 50px;
     margin: 0;
 
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 }
 
@@ -39,68 +39,14 @@ nav{
   }
 
   h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 5em;
+    font-size: 3em;
+    font-weight: 200;
   }
   p{
     font-family: 'Open Sans', sans-serif;
     color: #444;
-    font-size: 2.3em;
-    letter-spacing: .2em;
-    font-weight: 200;
-  }
-}
-
-#galleries{
-  width: 100%;
-
-  margin-top: 100px;
-
-  display: flex;
-  flex-direction: row;
-
-  .gallery{
-    width: 33.3%;
-    height: 250px;
-
-    background-size: cover;
-    background-position: 50% 50%;
-
-    p{
-      font-size: 0px;
-    }
-
-  }
-  .gallery:hover{
-
-    .overlay{
-      height: 100%;
-      width: 100%;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      background-color: rgba(0, 0, 0, .7);
-      transition: all 0.3s linear;
-    }
-
-    p{
-      font-size: 1.5em;
-      font-family: 'Open Sans', sans-serif;
-      color: #e6e6e6;
-      font-weight: 500;
-
-      padding: 5px 15px;
-
-      border: solid 2px #e6e6e6;
-
-    }
-    p:hover{
-      border: none;
-      background: white;
-      color: #444;
-    }
+    font-size: 1.5em;
   }
 }
