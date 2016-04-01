@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/briandennis/Photograpy#readme",
   "dependencies": {
+    "bricks.js": "^1.1.1",
     "mustache": "^2.2.1"
   }
 }

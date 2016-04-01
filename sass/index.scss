@@ -11,10 +11,11 @@ nav{
 
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 
-  h1{
+  h3{
+    padding-right: 20px;
     margin: 0;
-    padding-left: 20px;
 
     color: white;
     font-family: 'Open Sans', sans-serif;
