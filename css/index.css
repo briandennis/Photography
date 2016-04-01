@@ -43,15 +43,21 @@ nav {
     width: 33.3%;
     height: 250px;
     background-size: cover;
-    font-size: 0px; }
+    background-position: 50% 50%; }
+    #galleries .gallery p {
+      font-size: 0px; }
   #galleries .gallery:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    font-size: 2em;
-    color: white;
-    font-weight: 200;
+    background-color: rgba(91, 91, 91, 0.51);
     transition: .2s; }
+    #galleries .gallery:hover p {
+      font-size: 1.5em;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-weight: 200;
+      padding: .2em .5em;
+      border: solid 2px white; }
 
 /*# sourceMappingURL=index.css.map */
