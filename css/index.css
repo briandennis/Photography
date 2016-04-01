@@ -12,7 +12,7 @@ nav {
     padding-right: 50px;
     margin: 0;
     color: white;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Ubuntu', sans-serif; }
 
 #header {
   width: 100%;
@@ -25,7 +25,7 @@ nav {
     border-radius: 50%;
     border: solid 3px white; }
   #header h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 5em; }
   #header p {
@@ -43,8 +43,7 @@ nav {
   #galleries .gallery {
     width: 33.3%;
     height: 250px;
-    background-size: cover;
-    background-position: 50% 50%; }
+    background-size: cover; }
     #galleries .gallery p {
       font-size: 0px; }
   #galleries .gallery:hover .overlay {
@@ -66,5 +65,8 @@ nav {
     border: none;
     background: white;
     color: #444; }
+
+#acadia {
+  background-position: 50% 50%; }
 
 /*# sourceMappingURL=index.css.map */
