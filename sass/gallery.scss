@@ -50,3 +50,47 @@ nav{
     font-size: 1.5em;
   }
 }
+
+#gallery{
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.picture{
+  width: 600px;
+  height: 400px;
+
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    font-size: 0px;
+  }
+}
+.picture:hover{
+  cursor: zoom-in;
+
+  .overlay{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, .5);
+    transition: all 0.3s linear;
+
+    p{
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
